@@ -1,0 +1,26 @@
+@import "normalize";
+@import "skeleton";
+
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.header {}
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+    position: relative;
+
+    &:before {
+        content: '#';
+        color: #999;
+        position: absolute;
+        left: -2rem;
+    }
+}
+
+a,
+a:visited {
+    color: inherit;
+}
