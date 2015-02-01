@@ -25,3 +25,13 @@ a,
 a:visited {
     color: inherit;
 }
+
+@media only screen and (min-device-width : 375px) {
+    body {
+        margin: 10px 0;
+    }
+
+    .title:before {
+        left: -1.5rem;
+    }
+}
